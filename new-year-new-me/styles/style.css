@@ -35,23 +35,19 @@ a {
     font-weight: 800;
     font-size: 55px;
 }
-
 .primary-colour {
     color: #0987ef;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
     margin: 0 100px;
     padding: 40px;
 }
-
 nav ul {
     display: flex;
     align-items: center;
 }
-
 nav li {
     margin-left: 50px;
     font-size: 18px;
@@ -117,28 +113,38 @@ main {
 .section-writing {
     width: 400px;
     padding: 250px 0 100px 0;
-    text-align: left;
     color: #737272;
 }
-.section-title {
+.section-one-title {
+    text-align: left;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 40px;
     color: black;
 }
 .section-description {
+    text-align: left;
     margin-bottom: 30px;
     line-height: 26px;
 }
 .section-writing li {
     margin-bottom: 8px;
 }
+.material-symbols-outlined {
+    color: #23f4ff;
+}
 
 /* section-two style  */
 
-
+.section-two-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: black;
+}
 .section-two {
-    margin : 60px 0;
+    margin : 60px 0 80px 0;
 }
 .plans-container {
     margin-top: 80px;
@@ -191,10 +197,10 @@ main {
     width: 500px;
 }
 .footer-left p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .footer-left a {
-    margin-right: 15px;
+    margin-right: 18px;
 }
 .footer-left-title {
     font-size: 45px;
