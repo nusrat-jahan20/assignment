@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Work+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Ubuntu&family=Work+Sans:wght@400;600;700&display=swap');
+
+/* universal styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.orange-btn {
+    background-color: #FF900E;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+/*-------------------------------
+        section-one style 
+--------------------------------*/
+
+.section-one {
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    padding-bottom: 40px;
+}
+.banner {
+    width: 85%;
+    margin: 0 auto;
+}
+.banner-writing {
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-writing .banner-title {
+    font-size: 64px;
+    padding: 50px 0 25px;
+}
+.banner-writing .banner-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+    color: #727272;
+}
+.banner-image img{
+    width: 100%;
+}
+
+/*-------------------------------
+        section-two style 
+--------------------------------*/
+
+.section-two {
+    position: relative;
+    width: 76%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 80px;
+}
+.opportunity-images {
+    width: 52%;
+    margin-right: 50px;
+}
+.opportunity-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+.opportunity img {
+    width: 280px;
+    height: 280px;
+}
+.opportunity-details {
+    position: absolute;
+    top: 120px;
+    right: -25px;
+    width: 45%;
+}
+.opportunity-title h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+}
+.opportunity-title .ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #727272;
+}
+.opportunity-title .orange {
+    color: #FF900E;
+}
+.opportunity-description {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+        margin: 20px 0 30px;
+}
+
+
+/*--------------------------------
+        section-three style 
+---------------------------------*/
+
+.section-three {
+    position: relative;
+    margin-top: 70px;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 60px;
+}
+.features-title h1 {
+    border-left: 4px solid #FF900E;;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.features-about p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.feature-box {
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 14px 0.1px rgba(0, 0, 0, 0.07);
+}
+.feature-sub-title h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.feature-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.features-image img {
+    width: 650px;
+    height: 900px;
+}
+.large-orange-btn {
+    position: absolute;
+    bottom: 45px;
+    right: 560px;
+    background-color: #FF900E;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    padding: 35px;
+}
+.large-orange-btn h3 {
+    font-weight: 700;
+    font-size: 45px;
+}
+.large-orange-btn span {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+
+
