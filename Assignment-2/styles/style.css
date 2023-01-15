@@ -344,11 +344,11 @@ nav ul li:hover a{
     grid-column-gap: 100px;
 }
 .sponsored-by {
+    cursor: pointer;
     width: 165.83px;
     height: 50px;
 }
 .sponsored-by img {
-    cursor: pointer;
     filter: grayscale(100%);
     width: 100%;
     height: 100%;
