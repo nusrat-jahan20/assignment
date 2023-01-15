@@ -18,15 +18,28 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 .orange-btn {
-    background-color: #FF900E;
-    color: #ffffff;
+    color: #fff;
     border: none;
     border-radius: 7px;
-    width: 180px;
+    width: 200px;
     height: 64px;
     font-weight: 600;
     font-size: 20px;
+    letter-spacing: 2px;
     margin-bottom: 60px;
+    cursor: pointer;
+    background-color: #FF900E;
+    background-image: linear-gradient(to right, transparent 50%, #ffffff 50%);
+    background-size: 200%;
+    background-position: 0;
+    transition: 0.8s;
+}
+
+.large-orange-btn:hover,
+.orange-btn:hover {
+    background-position: 100%;
+    color: #FF900E;
+    border: 2px solid #FF900E;
 }
 
 /*--------------------------------------
@@ -38,6 +51,7 @@ header {
     background-color: #FFF4E7;
 }
 .nav-title h2{
+    cursor: pointer;
     font-weight: 700;
     font-size: 45px;
     color: #131313;
@@ -46,6 +60,7 @@ nav {
     width: 85%;
     margin: 0 auto;
     padding: 40px;
+    padding-right: 0;
     display: flex;
     justify-content: space-between;
 }
@@ -54,10 +69,23 @@ nav ul {
     align-items: center;
 }
 nav li {
+    margin: 0 5px;
     list-style: none;
-    margin-left: 50px;
     font-size: 18px;
 }
+nav ul li a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: #424242;
+    transition: 0.5s;
+}
+nav ul li:hover a{
+    cursor: pointer;
+    background: black;
+    color: #ffffff;
+}
+
 
 /*-------------------------------
         section-one style 
@@ -106,8 +134,6 @@ nav li {
 .opportunity-images {
     width: 52%;
     margin-right: 50px;
-}
-.opportunity-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
@@ -115,6 +141,12 @@ nav li {
 .opportunity img {
     width: 280px;
     height: 280px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3), -10px -10px 7px rgb(255, 255, 255);
+    transition: 0.6s;
+}
+.opportunity img:hover {
+    transform: translateY(3px);
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4), -20px -20px 12px rgb(255, 255, 255);
 }
 .opportunity-details {
     position: absolute;
@@ -152,7 +184,7 @@ nav li {
     position: relative;
     margin-top: 70px;
 }
-.container {
+.section-three .container {
     width: 85%;
     margin: 0 auto;
     display: grid;
@@ -203,6 +235,11 @@ nav li {
     color: #ffffff;
     border: none;
     border-radius: 7px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, transparent 50%, #ffffff 50%);
+    background-size: 200%;
+    background-position: 0;
+    transition: 1s;
     padding: 35px;
 }
 .large-orange-btn h3 {
@@ -252,7 +289,14 @@ nav li {
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 40px 60px;
+    box-shadow: 5px 5px 10px #fbd1a2;
+    transition: 0.5s;
 }
+.facts-box:hover {
+    box-shadow: inset 5px 5px 10px #fbd1a2;
+        transform: translateY(3px);
+}
+
 .facts-box .fact-number p{
     padding: 10px 0;
     font-weight: 600;
@@ -304,25 +348,82 @@ nav li {
     height: 50px;
 }
 .sponsored-by img {
+    filter: grayscale(100%);
     width: 100%;
     height: 100%;
+}
+
+/*----------------------
+      footer style
+-----------------------*/
+footer {
+    width: 85%;
+    margin: 0 auto;
+    background: #FFF4E7;
+    border-radius: 7px;
+    padding: 60px;
+    margin-bottom: 60px;
+}
+.footer-details {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-title {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.footer-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 40%;
+}
+.links-title {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.popular-links li, .quick-links li {
+    list-style: none;
+    padding: 15px 0;
+    cursor: pointer;
+    color: #727272;
+}
+.footer-input-field {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 50px) 130px 50px;
+    grid-row-gap: 10px;
+    margin-bottom: 70px;
+}
+.footer-input-field input, textarea {
+    padding: 10px;
+    border: 1px solid #b9b9b9;
+    border-radius: 4px;
+}
+.footer-input-field input[type = button] {
+    background-color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    color: #393939;
+}
+
+hr {
+    border-top: 1px solid #ffe0c4;
 }
 
 /*-------------------------------------
         copyright section style  
 ---------------------------------------*/
 
-.copyright {
-    width: 85%;
-    margin: 0 auto;
-    margin-bottom: 80px;
-    padding: 35px 0;
-    background: #FFF4E7;
-    border-radius: 7px;
-}
 .copyright p {
-    display: flex;
-    justify-content: center;
+    padding-top: 40px;
+    text-align: center;
     font-weight: 400;
     font-size: 16px;
     color: #424242;
