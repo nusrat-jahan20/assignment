@@ -409,6 +409,7 @@ footer {
     border-radius: 4px;
 }
 .footer-input-field input[type = button] {
+    cursor: pointer;
     background-color: #fff;
     font-size: 17px;
     font-weight: 500;
