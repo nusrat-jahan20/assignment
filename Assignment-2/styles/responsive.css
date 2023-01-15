@@ -1,0 +1,55 @@
+@media only screen and (max-width: 688px) {
+    
+    
+    header, .section-one, footer {
+        width: 345%;
+    }
+
+    .section-two {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 70px 550px;
+    }
+    .opportunity-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .opportunity-details {
+        width: 100%;
+    }
+    .section-three .container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0 430px;
+    }
+    .section-four, .section-five {
+        margin-left: 450px;
+    }
+    .facts-details {
+        text-align: center;
+    }
+    .facts-info {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        margin-left: 100px;
+    }
+    .footer-info, .sponsors{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 60px;
+    }
+    .footer-info {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .popular-links, .quick-links {
+        text-align: center;
+    }
+    .footer-input-field {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}
