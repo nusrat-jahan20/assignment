@@ -29,6 +29,36 @@ body {
     margin-bottom: 60px;
 }
 
+/*--------------------------------------
+       header and navigation style  
+----------------------------------------*/
+
+header {
+    width: 100%;
+    background-color: #FFF4E7;
+}
+.nav-title h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+nav {
+    width: 85%;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
 /*-------------------------------
         section-one style 
 --------------------------------*/
@@ -88,7 +118,7 @@ body {
 }
 .opportunity-details {
     position: absolute;
-    top: 120px;
+    top: 100px;
     right: -25px;
     width: 45%;
 }
@@ -283,7 +313,19 @@ body {
 ---------------------------------------*/
 
 .copyright {
-    
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 35px 0;
+    background: #FFF4E7;
+    border-radius: 7px;
+}
+.copyright p {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
 }
 
 
