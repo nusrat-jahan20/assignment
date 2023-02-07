@@ -1,5 +1,5 @@
 // Problem 1: Let’s play a mind game
-// The 'mindGame()' function will take a positive number as input. Then it will multiply the number by 3, then adding 10 to the result, then dividing the result by 2, then subtract 5 from the result. After this whole calculation the function will return the result.
+// The 'mindGame()' function will take a positive number as input parameter. Then it will multiply the number by 3, then adding 10 to the result, then dividing the result by 2, then subtract 5 from the result. After this whole calculation the function will return the result.
 
 function mindGame(positiveNumber) {
     if(typeof(positiveNumber) == 'number') {
@@ -15,7 +15,7 @@ function mindGame(positiveNumber) {
 
 
 // Problem 2: Finding even or odd
-// The 'evenOdd()' function will take a string as input. The function will return 'even' if the input string length is even otherwise if the length is odd then the function will return 'odd'.
+// The 'evenOdd()' function will take a string as input parameter. The function will return 'even' if the input string length is even otherwise if the length is odd then the function will return 'odd'.
 
 function evenOdd(string) {
     if(typeof(string) == 'string') {
@@ -39,7 +39,7 @@ function evenOdd(string) {
 
 
 // Problem 3: Is Less or Greater than seven
-// The 'isLGSeven()' function will take a number as input. The function have to find the difference between the number and 7, then it will compare if the difference is either less than 7 or not. If the difference is less then 7 then the function will return the difference. If not then the function will return double of the input number.
+// The 'isLGSeven()' function will take a number as input parameter. The function have to find the difference between the number and 7, then it will compare if the difference is either less than 7 or not. If the difference is less then 7 then the function will return the difference. If not then the function will return double of the input number.
 
 function isLGSeven(number) {
     if (typeof(number) == 'number') {
@@ -60,7 +60,7 @@ function isLGSeven(number) {
 
 
 // Problem 4: Finding Bad data
-// The 'findingBadData()' function will take an array as input which contains some positive or negetive numbers or zero. The function will find then number of negetive numbers in the array and return it.
+// The 'findingBadData()' function will take an array as input parameter which contains some positive or negetive numbers or zero. The function will find then number of negetive numbers in the array and return it.
 
 function findingBadData(numbers) {
     if(typeof(numbers) == 'object') {
@@ -80,4 +80,26 @@ function findingBadData(numbers) {
     else {
         return 'Please enter an array.'
     }
+}
+
+
+
+
+// Problem 5: Convert your gems into diamond
+// The 'gemsToDiamond()' function will take three number as input parameter which represnts number of gems of three friends. 
+
+function  gemsToDiamond(firstFrndzGems, secondFrndzGems, thirdFrndzGems) {
+    if (typeof(firstFrndzGems) == 'number' && typeof(secondFrndzGems) == 'number' && typeof(thirdFrndzGems) == 'number') {
+        let totalDiamond = (firstFrndzGems * 21) + (secondFrndzGems *32) + (thirdFrndzGems * 43);
+        if(totalDiamond >= 1000 * 2) {
+            let mineDimond = totalDiamond - 2000;
+            return mineDimond;
+        }
+        else {
+            return totalDiamond;
+        }
+    }  
+    else {
+        return 'Please input all valid numbers.'
+    } 
 }
