@@ -1,4 +1,5 @@
 // Problem 3: Is Less or Greater than seven
+// The 'isLGSeven()'
 
 function isLGSeven(number) {
     const difference = number - 7;
