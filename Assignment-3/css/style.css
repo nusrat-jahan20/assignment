@@ -1,3 +1,20 @@
+/*------------------------ 
+       common style 
+--------------------------*/
+
+footer h4, .title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+}
+.sub-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+}
+.text-color {
+    color: #bcbcbc;
+}
+
+
 /*------------------------
       section one
 -------------------------*/
@@ -22,13 +39,29 @@
     color: #ffffff;
 }
 .banner-content-inner h1 {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'EB Garamond', serif;
     font-size: 4vw;
     font-weight: 800;
 }
 .banner-content-inner p {
     font-size: 1vw;
 }
+
+
+/*-----------------------------
+       carousel image
+-----------------------------*/
+
+.profile-1 {
+    width: 6vw;
+}
+.carousel-caption h5{
+    font-size: 2vw;
+}
+.carousel-caption p {
+    font-size: 1vw;
+}
+
 
 /* responsive for extra small device */
 
@@ -58,6 +91,9 @@
     .form input {
         display: none;
     }
+    .carousel-caption {
+        bottom: 15%;
+    }
 }
 
 /* responsive for medium device */
@@ -66,6 +102,9 @@
     .banner-content {
         width: 80%;
         height: 38vh;
+    }
+    .carousel-caption {
+        bottom: 15%;
     }
 }
 
@@ -77,6 +116,9 @@
         height: 50vh;
     }
 }
+
+
+
 
 
 
