@@ -1,4 +1,5 @@
 // Problem 2: Finding even or odd
+// 
 
 function evenOdd(string) {
     sum = 0;
@@ -13,5 +14,5 @@ function evenOdd(string) {
     }
 }
 
-let output = evenOdd('phero');
+let output = evenOdd('Batch7');
 console.log(output);
