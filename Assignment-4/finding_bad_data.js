@@ -13,3 +13,4 @@ function findingBadData(numbers) {
 let array =  [ 2, -5, -7, -13 ];
 let output = findingBadData(array);
 console.log(output);
+
