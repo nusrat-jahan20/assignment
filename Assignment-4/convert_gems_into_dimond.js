@@ -17,7 +17,7 @@ function  gemsToDiamond(firstFrndzGems, secondFrndzGems, thirdFrndzGems) {
     } 
 }
 
-let output = gemsToDiamond(100, 5, 'r');
+let output = gemsToDiamond(100, 5);
 console.log(output);
 
 
