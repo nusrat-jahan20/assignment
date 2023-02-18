@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Geometric Structure Measuring Calculator</title>
+
+        <!-- bootstrape css file -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <!-- custom css style -->
+        <style>
+            input[type = text] {
+                background:  #F1F1F1;
+                border-radius: 4px;
+                border: 0;
+            }
+        </style>
+    </head>
+
+    <body class="container-xl my-5">
+
+        <!-- start header section -->
+        <header>
+            <div class="d-flex justify-content-between align-items-center bg-info-subtle my-5 px-5 py-3 border-0 rounded-3">
+                <div>
+                    <h2 class="fw-bold">Interactive </h2>
+                    <p class="fs-5">Geometry Genius</p>
+                </div>
+                <div>
+                    <button class="btn btn-primary px-4 py-2" id="btn-blog">
+                        <h6>Blog</h6>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- end header section -->
+        
+        <!-- start main section -->
+        <main>
+            <div class="row gx-4">
+                <div class="col-lg-9">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;">
+                                <img src="images/triangle.png" alt="triangle" class="img-fluid"  style="height: 180px;">
+                                <h3 class="mt-4 mb-2 fw-bold">Triangle</h3>
+                                <p>Area (A) = 0.5 &#215; b &#215; h</p>
+                                <div class="row my-4 pb-3">
+                                    <div class="col-6 ">
+                                        <input type="text" placeholder="b" class="w-75 px-3 py-1" id="base-field"> 
+                                        <span>cm</span> 
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="h" class="w-75 px-3 py-1" id="height-field"> cm
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100" id="btn-calculate">Calculate</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;" >
+                                <img src="images/rectangle.png" alt="triangle" class="img-fluid" style="height: 180px;">
+                                <h3 class="mt-4 mb-2 fw-bold">Rectangle</h3>
+                                <p>Area (A) = w &#215; l</p>
+                                <div class="row my-4 pb-3">
+                                    <div class="col-6 ">
+                                        <input type="text" placeholder="w" class="w-75 px-3 py-1"> 
+                                        <span>cm</span> 
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="l" class="w-75 px-3 py-1"> cm
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100">Calculate</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card d-flex flex-column align-items-center p-4"style="height: 29rem;">
+                                <img src="images/parallelogram.png" alt="parallelogram" class="img-fluid"
+                                style="height: 180px;">
+                                <h3 class="mt-4 mb-2 fw-bold">Parallelogram</h3>
+                                <p>Area (A) =b &#215; h</p>
+                                <div class="row my-4 pb-3">
+                                    <div class="col-6 ">
+                                        <input type="text" placeholder="b" class="w-75 px-3 py-1"> 
+                                        <span>cm</span> 
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="h" class="w-75 px-3 py-1"> cm
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100">Calculate</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;">
+                                <img src="images/rhombus.png" alt="rhombus" class="img-fluid"  style="height: 180px;">
+                                <h3 class="mt-4 mb-2 fw-bold">Rhombus</h3>
+                                <p>Area (A) = 0.5 &#215; d1 &#215; d2</p>
+                                <div class="row my-4 pb-3">
+                                    <div class="col-6 ">
+                                        <input type="text" placeholder="d1" class="w-75 px-3 py-1"> 
+                                        <span>cm</span> 
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="d2" class="w-75 px-3 py-1"> cm
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100">Calculate</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;">
+                                <img src="images/pentagon.png" alt="pentagon" class="img-fluid" style="height: 180px;">
+                                <h3 class="mt-4 mb-2 fw-bold">Pentagon</h3>
+                                <p>Area (A) = 0.5 &#215; p &#215; b</p>
+                                <div class="row my-4 pb-3">
+                                    <div class="col-6 ">
+                                        <input type="text" placeholder="p" class="w-75 px-3 py-1"> 
+                                        <span>cm</span> 
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="b" class="w-75 px-3 py-1"> cm
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100">Calculate</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;">
+                                <img src="images/ellipse.png" alt="ellipse" class="img-fluid" style="height: 180px;">
+                                <h3 class="mt-4 mb-2 fw-bold">Ellipse</h3>
+                                <p>Area (A) = &#8508; ab</p>
+                                <div class="row my-4 pb-3">
+                                    <div class="col-6 ">
+                                        <input type="text" placeholder="a" class="w-75 px-3 py-1"> 
+                                        <span>cm</span> 
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="b" class="w-75 px-3 py-1"> cm
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary w-100">Calculate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-sm-4 mt-lg-0">
+                    <div class="border rounded-3 d-flex justify-content-center py-3" style="height: 100%;">
+                        <h5 class="text-decoration-underline">Area Calculation</h5>
+                        <br>
+                        <div>
+                            <table  id="output-area">
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- end main section -->
+
+        <script>
+            document.getElementById('btn-calculate').addEventListener('click', function() {
+                const baseValueString = document.getElementById('base-field').value;
+                const baseValue = parseFloat(baseValueString);
+                const heightValueString = document.getElementById('height-field').value;
+                const heightValue = parseFloat(heightValueString);
+                const area = 0.5 * baseValue * heightValue;
+                // console.log(baseValue, heightValue, area);
+                const container = document.getElementById('output-area');
+                const table = document.createElement('table');
+                table.innerText = area;
+                container.appendChild(table);
+            })
+        </script>
+
+
+        <!-- custom js file -->
+        <script src="js/script.js"></script>
+
+        <!-- bootstrape js file -->
+        <script src="js/bootstrap.js"></script>
+
+        
+    </body>
+</html>
+
+
+            
