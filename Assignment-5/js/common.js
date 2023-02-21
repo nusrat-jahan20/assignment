@@ -16,22 +16,21 @@ function countRow() {
 }
 
 // random colour
-function randomColor() {
-  let color = [];
-  for (let i = 0; i < 3; i++) {
-    color.push(Math.floor(Math.random() * 256));
-  }
-  const randColor = 'rgb(' + color.join(', ') + ')';
-  return randColor;
-  // console.log('checked')
+function randomColor(el) {
+    let color = [];
+    for (let i = 0; i < 3; i++) {
+        color.push(Math.floor(Math.random() * 256));
+    }
+    const randColor = 'rgb(' + color.join(', ') + ')';
+    el.style.backgroundColor = randColor;
 } 
 
-const randomColour = document.getElementsByClassName('random');
-for (const random of randomColour) {
-  document.addEventListener('mouseover', event => {
-      event.target.style.fill = randomColor();
-});
-}
+// const randomColour = document.getElementsByClassName('random');
+// for (const random of randomColour) {
+//   document.addEventListener('mouseover', event => {
+//       event.target.style.fill = randomColor();
+// });
+// }
 
 
 
