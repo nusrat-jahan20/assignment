@@ -20,7 +20,6 @@
     </head>
 
     <body class="container-xl my-5">
-
         <!-- start header section -->
         <header>
             <div class="d-flex justify-content-between align-items-center bg-info-subtle my-5 px-5 py-3 border-0 rounded-3">
@@ -42,7 +41,7 @@
             <div class="row gx-4">
                 <div class="col-lg-9">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col random-color">
+                        <div class="col random">
                             <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;">
                                 <img src="images/triangle.png" alt="triangle" class="img-fluid"  style="height: 180px;">
                                 <h3 class="mt-4 mb-2 fw-bold">Triangle</h3>
@@ -59,7 +58,7 @@
                                 <button class="btn btn-primary w-100" id="btn-calculate-triangle">Calculate</button>
                             </div>
                         </div>
-                        <div class="col random-color">
+                        <div class="col random">
                             <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;" >
                                 <img src="images/rectangle.png" alt="triangle" class="img-fluid" style="height: 180px;">
                                 <h3 class="mt-4 mb-2 fw-bold">Rectangle</h3>
@@ -76,7 +75,7 @@
                                 <button class="btn btn-primary w-100" id="btn-calculate-ractangular">Calculate</button>
                             </div>
                         </div>
-                        <div class="col random-color">
+                        <div class="col random">
                             <div class="card d-flex flex-column align-items-center p-4"style="height: 29rem;">
                                 <img src="images/parallelogram.png" alt="parallelogram" class="img-fluid"
                                 style="height: 180px;">
@@ -94,7 +93,7 @@
                                 <button class="btn btn-primary w-100" id="btn-calculate-parallelogram">Calculate</button>
                             </div>
                         </div>
-                        <div class="col random-color">
+                        <div class="col random">
                             <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;">
                                 <img src="images/rhombus.png" alt="rhombus" class="img-fluid"  style="height: 180px;">
                                 <h3 class="mt-4 mb-2 fw-bold">Rhombus</h3>
@@ -111,7 +110,7 @@
                                 <button class="btn btn-primary w-100" id="btn-calculate-rhombus">Calculate</button>
                             </div>
                         </div>
-                        <div class="col random-color">
+                        <div class="col random">
                             <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;">
                                 <img src="images/pentagon.png" alt="pentagon" class="img-fluid" style="height: 180px;">
                                 <h3 class="mt-4 mb-2 fw-bold">Pentagon</h3>
@@ -128,7 +127,7 @@
                                 <button class="btn btn-primary w-100" id="btn-calculate-pentagon">Calculate</button>
                             </div>
                         </div>
-                        <div class="col random-color">
+                        <div class="col random">
                             <div class="card d-flex flex-column align-items-center p-4" style="height: 29rem;">
                                 <img src="images/ellipse.png" alt="ellipse" class="img-fluid" style="height: 180px;">
                                 <h3 class="mt-4 mb-2 fw-bold">Ellipse</h3>
@@ -148,9 +147,11 @@
                     </div>
                 </div>
                 <div class="col-lg-3 mt-sm-4 mt-lg-0">
-                    <div class="border rounded-3 d-flex flex-column align-items-center py-3" style="height: 100%;">
-                        <div class="mb-4">
-                            <h5 class="text-decoration-underline">Area Calculation</h5>
+                    <div class="border rounded-3 d-flex flex-column align-items-center py-3 overflow-x-auto" style="height: 100%;">
+                        <div class="mb-4 d-flex align-items-center">
+                            <h5 class="text-decoration-underline me-5">Area Calculation</h5>
+
+                            <button class="btn btn-primary" id="clear">Clear All</button>
                         </div>
                         <div>
                             <table class="table">

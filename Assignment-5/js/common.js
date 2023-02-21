@@ -15,12 +15,25 @@ function countRow() {
     
 }
 
-
-// change background-colour randomly
+// random colour
 function randomColor() {
-    let color = [];
-    for (let i = 0; i < 3; i++) {
-        color. push(Math. floor(Math. random() * 256));
-    }
-    return 'rgb(' + color. join(', ') + ')';
+  let color = [];
+  for (let i = 0; i < 3; i++) {
+    color.push(Math.floor(Math.random() * 256));
+  }
+  const randColor = 'rgb(' + color.join(', ') + ')';
+  return randColor;
+  // console.log('checked')
+} 
+
+const randomColour = document.getElementsByClassName('random');
+for (const random of randomColour) {
+  document.addEventListener('mouseover', event => {
+      event.target.style.fill = randomColor();
+});
 }
+
+
+
+
+
