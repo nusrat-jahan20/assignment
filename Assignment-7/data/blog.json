@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "question": "What is the difference between map(), filter(), forEach(), find()?",
+      "answer": "<br>map(): Returns a new array by applying a function to each element in the original array. <br>filter(): Returns a new array with elements that meet a specified condition. <br>forEach(): Executes a provided function once for each array element. <br>find(): Returns the value of the first element in an array that satisfies a provided condition."
+    },
+    {
+      "id": 2,
+      "question": "What is the difference between localStorage, sessionStorage, cookies ?",
+      "answer": "<br>localStorage: stores data in the browser indefinitely until manually cleared. <br>sessionStorage: stores data in the browser until the window or tab is closed. <br>cookies: stores small text files on the user's computer, sent with each HTTP request."
+    },
+    {
+        "id": 3,
+        "question": "What is event loop?",
+        "answer": "<br>The event loop in JavaScript is a way of handling multiple tasks at the same time, so that long-running tasks don't block the main thread and slow down the application. It manages a queue of tasks to be executed one after the other."
+    },
+    {
+        "id": 4,
+        "question": "How quizTimer() function works?",
+        "answer": "A function named quizTimer with a parameter named 'dismiss' is created. If the parameter 'dismiss' is true, clear the timer and exit the function. Else, set the 'timer' variable with a new setInterval.Then the HTML element with the id 'count' is selected and is stored it in a variable named 'countHtml'. The count variable is divided by 60 and rounded down to get the number of minutes. The remainder of count is divided by 60 to get the seconds. If covtMin is a single digit number, added a leading '0' to min. If mod is a single digit number, added a leading '0' to countSec. Then the inner HTML of the countHtml element is set to display the countdown in minutes and seconds. Then the count variable is incremented by 1. If count is greater than 60 means 1 minute, alternate the CSS classes to change the color of the countdown timer. Then set the interval for the setInterval function to 1000 milliseconds (1 second)"
+    },
+    {
+        "id": 4,
+        "question": "How chooseQuiz() function works?",
+        "answer": "The function takes two parameters: 'index' and 'givenAns'. The function checks if the current question already exists in the 'answers' array. If the current question already exists in the 'answers' array, it updates the existing answer with the new answer. If the current question does not exist in the 'answers' array, it adds the new answer to the array. Finally, the function calls the 'displayAnswers' function to display the updated answers array at right side of the page."
+    }
+]
+  
