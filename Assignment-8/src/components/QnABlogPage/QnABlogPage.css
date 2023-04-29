@@ -1,0 +1,13 @@
+.cont {
+    height: auto;
+    background: rgba(96, 71, 236, 0.1);
+    border-radius: 8px;
+    margin: 50px;
+    padding: 25px;
+}
+.ques {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}

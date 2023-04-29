@@ -1,0 +1,62 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "authorName": "Nusrat Jahan",
+        "blogTitle": "How to get your first job as a self-taught programmer",
+        "authorImg": "https://randomuser.me/api/portraits/women/8.jpg",
+        "coverImg": "https://www.talkesport.com/wp-content/uploads/technology-esports.jpg",
+        "readTime": 10,
+        "publishDate": "Mar 25, 2023",
+        "tags": ["programming", "career", "job"]
+    },
+    {
+        "id": "b58c0f07-7cc1-4e0a-a70f-05b0de7f69c4",
+        "authorName": "Sohel Rana",
+        "blogTitle": "The Future of AI and Its Impact on Society",
+        "authorImg": "https://randomuser.me/api/portraits/men/2.jpg",
+        "coverImg": "https://www.techpcvipers.com/wp-content/uploads/2019/03/The-Future-of-Artificial-Intelligence.jpeg",
+        "readTime": 15,
+        "publishDate": "Mar 29, 2023",
+        "tags": ["ai", "future"]
+    },
+    {
+        "id": "0a94c9b2-4606-43f6-8c25-3ef3af15c6ba",
+        "authorName": "Fahim Hasan",
+        "blogTitle": "The Rise of Blockchain Technology: A Comprehensive Overview",
+        "authorImg": "https://randomuser.me/api/portraits/men/3.jpg",
+        "coverImg": "https://techimplement.com/wp-content/uploads/2020/10/Blockchain-Technology-.png",
+        "readTime": 12,
+        "publishDate": "Mar 31, 2023",
+        "tags": ["blockchain", "technology"]
+    },
+    {
+        "id": "7f2732a4-7e87-4c84-94a8-47cfb5e5d5c5",
+        "authorName": "Sabrina Ahmed",
+        "blogTitle": "The Power of Cloud Computing: What It Can Do For Your Business",
+        "authorImg": "https://randomuser.me/api/portraits/women/4.jpg",
+        "coverImg": "https://www.educba.com/academy/wp-content/uploads/2019/02/So-what-is-Cloud-Computing-exactly.jpg",
+        "readTime": 8,
+        "publishDate": "Apr 1, 2023",
+        "tags": ["cloud", "technology"]
+    },
+    {
+        "id": "5f3e7d3c-3a48-4222-a2d3-c7d3d0c0f7ab",
+        "authorName": "Rakibul Hasan",
+        "blogTitle": "The Importance of Cyber-security in a Digitally Connected World",
+        "authorImg": "https://randomuser.me/api/portraits/men/5.jpg",
+        "coverImg": "https://i.pinimg.com/originals/a6/15/05/a61505fb9b564ce33ea3a34f627a3cc7.jpg",
+        "readTime": 20,
+        "publishDate": "Mar 26, 2023",
+        "tags": ["cyber", "security"]
+    },
+    {
+        "id": "76d2c2e7-61e6-4d1a-9c90-ee7f370b23af",
+        "authorName": "Tahmina Ahmed",
+        "blogTitle": "The Rise of the AI in Big Data Analytics",
+        "authorImg": "https://randomuser.me/api/portraits/women/7.jpg",
+        "coverImg": "http://www.dexlabanalytics.com/wp-content/uploads/2015/10/banner4.jpg",
+        "readTime": 17,
+        "publishDate": "Mar 24, 2023",
+        "tags": ["data", "science"]
+    }
+]
